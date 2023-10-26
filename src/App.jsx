@@ -6,7 +6,7 @@ import MemberList from "./components/MemberList";
 
 export default function App() {
   return (
-    <div>
+    <div className="flex justify-center">
       <main>
         <Header />
         <SignupForm />
