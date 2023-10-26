@@ -6,7 +6,7 @@ import MemberList from "./components/MemberList";
 
 export default function App() {
   return (
-    <div className="flex justify-center">
+    <div className="m-auto flex max-w-prose">
       <main>
         <Header />
         <SignupForm />
